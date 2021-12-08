@@ -20,11 +20,29 @@ body {
   color: var(--primery-text-color);
 }
 
+header {
+  border: 1px solid #000;
+}
+ul,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .no-dots {
   list-style: none;
 }
 
 /* Оформление хедера */
+
+.upper-line {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -178,6 +196,25 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Оформление футера */
