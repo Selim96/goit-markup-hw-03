@@ -20,9 +20,6 @@ body {
   color: var(--primery-text-color);
 }
 
-header {
-  border: 1px solid #000;
-}
 ul,
 p,
 h1,
