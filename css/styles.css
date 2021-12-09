@@ -294,7 +294,13 @@ h3 {
   margin-bottom: 30px;
 }
 
+.products-item div {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .products-img {
+  diplay: block;
   margin-bottom: 20px;
 }
 
@@ -304,6 +310,7 @@ h3 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 
 .products-type {
