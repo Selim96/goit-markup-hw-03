@@ -45,7 +45,23 @@ h3 {
 
 .upper-nav {
   display: flex;
+  align-items: center;
+  outline: auto;
 }
+
+.navigation-list {
+  display: flex;
+}
+
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.navigation.contacts:first-child {
+  margin-right: 50px;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -53,6 +69,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .header {
@@ -68,6 +85,10 @@ h3 {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+}
+
+.pages:not(:last-child) {
+  margin-right: 50px;
 }
 
 .pages a {
@@ -97,6 +118,7 @@ h3 {
 .baner,
 .footer {
   background-color: var(--baner-color);
+  text-align: center;
 }
 
 .baner h1 {
